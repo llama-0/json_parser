@@ -1,0 +1,26 @@
+{
+	"camera": {
+		"position": [0, 2, -4],
+		"look_at": [0, 2, 0]
+	},
+	"lights": [{
+		"type": "ambient",
+		"intensity": 0.25
+	},{
+		"type": "dot",
+		"intensity": 0.7,
+		"position": [3, 0, 2]
+	}],
+	"objects": {
+		"type": "cylinder",
+		"center": [0, 0, 0],
+		"normal": [0, 1, 0],
+		"color": "0xffff00",
+		"specular": 0,
+		"radius": 1,
+		"translation": [0, 0, 6],
+		"sliced_up": [ 0, 1, 0 ],
+		"len_up": 4,
+		"len_down": 0
+	}
+}

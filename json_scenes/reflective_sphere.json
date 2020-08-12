@@ -1,0 +1,22 @@
+{
+	"camera": {
+		"position": [0, 0, 3],
+		"look_at": [0, 0, 0]
+	},
+	"lights": [{
+		"type": "ambient",
+		"intensity": 0.15
+	},
+	{
+		"type": "dot",
+		"position": [0, 3, -5],
+		"intensity": 0.8
+	}],
+	"objects": {
+		"type": "sphere",
+		"radius": 1,
+		"center": [-2, 0, -5],
+		"color": [255, 0, 0],
+		"reflective": 0.3
+	}
+}

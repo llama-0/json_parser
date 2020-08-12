@@ -1,0 +1,73 @@
+{
+	"camera": {
+		"position":  [ 0, 0, 15 ],
+		"look_at":	 [ 0, 0, 0 ]
+	},
+	"lights": {
+		"type": "dot",
+		"position": [ 0, 0, 10 ],
+		"intensity": 0.9
+	},
+	"objects": [{
+		"type": "torus",
+		"center": [ 0, 0, -40 ],
+		"radius": 2,
+		"tube_radius": 0.7,
+		"rotation": [ 0, 90, 90 ],
+		"color": [ 71, 92, 108 ],
+		"specular": 0
+	},
+	{
+		"type": "torus",
+		"center": [ 0, 0, -30 ],
+		"radius": 2,
+		"tube_radius": 0.7,
+		"rotation": [ 0, 90, 90 ],
+		"color": [ 71, 92, 108 ],
+		"specular": 0
+	},
+	{
+		"type": "torus",
+		"center": [ 0, 0, -20 ],
+		"radius": 2,
+		"tube_radius": 0.7,
+		"rotation": [ 0, 90, 90 ],
+		"color": [ 71, 92, 108 ],
+		"specular": 0
+	},
+	{
+		"type": "torus",
+		"center": [ 0, 0, -10 ],
+		"radius": 2,
+		"tube_radius": 0.7,
+		"rotation": [ 0, 90, 90 ],
+		"color": [ 71, 92, 108 ],
+		"specular": 0
+	},
+	{
+		"type": "torus",
+		"center": [ 0, 0, 0 ],
+		"radius": 2,
+		"tube_radius": 0.7,
+		"rotation": [ 0, 90, 90 ],
+		"color": [ 71, 92, 108 ],
+		"specular": 0
+	},
+	{
+		"type": "cylinder",
+		"center": [0, 0, 0],
+		"normal": [0, 0, 1],
+		"color": "0xf7efd2",
+		"radius": 10
+	},
+	{
+		"type": "plane",
+		"center": [0, -1, 10],
+		"normal": [0, 1, 0],
+		"color": "0xeed7a1",
+		"specular": 0,
+		"sliced_up": [ 1, 0, 0 ],
+		"len_up": 1,
+		"len_down": 1
+	}]
+}
