@@ -1,0 +1,38 @@
+{
+	"camera": {
+		"position": [0, 0, -4],
+		"look_at": [0, 0, 0]
+	},
+	"lights": [{
+		"type": "ambient",
+		"intensity": 0.15
+	},{
+		"type": "dot",
+		"intensity": 0.7,
+		"position": [0, 2, -2]
+	}],
+	"objects": [{
+		"type": "cylinder",
+		"center": [0.37, -0.5, -1.0],
+		"normal": [0, 1, 0],
+		"radius": 0.364,
+		"color": [118, 255, 255],
+		"specular": 500,
+		"rotation": [30, 0, 30],
+		"sliced_up": [ 0, 1, 0 ],
+		"len_up": 1,
+		"len_down": 0
+	},
+	{
+		"type": "cone",
+		"center": [-0.5, 1, 0.0],
+		"normal": [0, 1, 0],
+		"angle": 20,
+		"color": [118, 255, 255],
+		"specular": 500,
+		"rotation": [30, 0, 30],
+		"sliced_up": [ 0, 1, 0 ],
+		"len_up": 0,
+		"len_down": 1
+	}]
+}

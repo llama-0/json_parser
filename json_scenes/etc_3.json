@@ -1,0 +1,19 @@
+{
+	"camera": {
+		"position": [0, 50, 4],
+		"look_at": [0, 0, 4]
+	},
+	"lights": {
+		"type": "dot",
+		"intensity": 0.6,
+		"position": [0, 40, 0.8]
+	},
+	"objects": [{
+		"type": "cone",
+		"center": [0, 0, 4],
+		"normal": [0, 1, 0],
+		"angle": 5,
+		"color": [100, 255, 100],
+		"specular": 0
+	}]
+}
