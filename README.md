@@ -26,6 +26,6 @@ In a ray tracer source file we expect values to be present in order to be able t
 If some important data is missing, the parser will notify you about it.
     
 ### Not a bug, but a feature
-If you placed `-` sign inside an array like this [10.0, 0,- 0.8] validation will parse it OK, because the first step of validation is to remove all whitespaces (thus we less memory is used to store initial data)
+If you placed `-` sign inside an array like this [10.0, 0,- 0.8] validation will parse it OK, because the first step of validation is to remove all whitespaces (thus less memory is used to store initial data)
 
 [minishell project]: https://github.com/llama-0/minishell
